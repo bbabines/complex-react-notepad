@@ -29,6 +29,7 @@ const NoteForm = ({ onSubmit, onAddTag, availableTags }: NoteFormProps) => {
 			tags: selectedTags,
 		});
 
+		// Navigates to previous page.
 		navigate("..");
 	};
 
